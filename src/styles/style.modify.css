@@ -1,0 +1,31 @@
+.add-little-margin1 {
+  margin-top: 48px;
+}
+
+.add-little-margin2 {
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.add-little-fix1 {
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+.text-center-404 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+
+.body-filter{
+    position: sticky;
+    background-color: #fff;
+    z-index: 3;
+    top: 30px;
+}
