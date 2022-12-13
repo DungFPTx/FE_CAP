@@ -1,16 +1,11 @@
-import {useState} from "react";
 import {useNavigate} from "react-router-dom";
-import {useInput} from "rooks";
-import {useDebounce} from "rooks";
+import useSearchDebounce from "../../utils/hook/useDebounced";
 
 const SearchBar = () => {
   const navigate = useNavigate();
-  const myInput = useInput("", {
-    // validate: newValue => newValue.length > 0,
-  });
-  const [value, setValue] = useState("");
-  const setSearchDebounced = useDebounce(setValue, 500);
-  console.log(value);
+
+  const [searchValue, setSearchValue] = useSearchDebounce();
+
   return (
     <>
       <div className="grid wide hide-on-mobile">
@@ -20,7 +15,7 @@ const SearchBar = () => {
               style={{display: "flex"}}
               className="header-input-search bg_white boder-gray">
               <input
-                onChange={e => setSearchDebounced(e.target.value)}
+                onChange={e => setSearchValue(e.target.value)}
                 type="text"
                 placeholder="Search here!"
               />

@@ -13,10 +13,6 @@ import LogoWeb from "../../assets/img/logo.png";
 const Index = () => {
   const [searchShow, searchShowToggle, _] = useToggle(false);
 
-  const soloesadasd = () => {
-    alert("xczxczx");
-  };
-
   return (
     <>
       <HeaderStatic1 />
@@ -43,9 +39,9 @@ const Index = () => {
                     HOME
                   </Link>
                 </li>
-                <li className="header-navbar-item">
+                <Link to="/product/1" className="header-navbar-item">
                   <span className="header-navbar-item-link">SHOP</span>{" "}
-                </li>
+                </Link>
                 <li className="header-navbar-item">
                   <span className="header-navbar-item-link">WOMEN</span>
                 </li>
@@ -53,14 +49,16 @@ const Index = () => {
                   <span className="header-navbar-item-link">MEN</span>
                 </li>
                 <li className="header-navbar-item">
-                  <span className="header-navbar-item-link">OUTERWEAR</span>
+                  <span className="header-navbar-item-link">
+                    SWEATSHIRTS & HOODIES
+                  </span>
                 </li>
-                <li className="header-navbar-item">
-                  <span className="header-navbar-item-link">BLOG</span>
-                </li>
-                <li className="header-navbar-item">
-                  <span className="header-navbar-item-link">CONTACT</span>
-                </li>
+                {/*<li className="header-navbar-item">*/}
+                {/*  <span className="header-navbar-item-link">PANTS</span>*/}
+                {/*</li>*/}
+                <Link to="/feedback" className="header-navbar-item">
+                  <span className="header-navbar-item-link">FEEDBACK</span>
+                </Link>
               </ul>
             </div>
             {/* phần thông tin icon user */}

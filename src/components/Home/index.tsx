@@ -7,7 +7,7 @@ const Index = () => {
     <>
       <HomeStatic2 />
       {/* Phần nội dung chính */}
-      <div className="container">
+      <div className="containerxx">
         <div className="grid wide">
           <div className="row">
             {/* Phần filter */}
@@ -23,41 +23,35 @@ const Index = () => {
                       <span className="body-filter-products-item-link">
                         <label>Men</label>
                       </span>
-                      <i className="fa-solid fa-minus" />
-                      <ul className="filter-products-sub-list">
-                        <li className="filter-products-sub-list">
-                          <span className="body-filter-products-item-link">
-                            <label>panst</label>
-                          </span>
-                        </li>
-                      </ul>
                     </li>
                     <li className="body-filter-products-item">
                       <span className="body-filter-products-item-link">
-                        <label>Men</label>
-                      </span>
-                      <i className="fa-solid fa-minus" />
-                      <ul className="filter-products-sub-list ">
-                        <li className="filter-products-sub-list">
-                          <span className="body-filter-products-item-link">
-                            <label>panst</label>
-                          </span>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="body-filter-products-item">
-                      <span className="body-filter-products-item-link">
-                        <label className="active">Men</label>{" "}
+                        <label>Women</label>
                       </span>
                     </li>
                     <li className="body-filter-products-item">
                       <span className="body-filter-products-item-link">
-                        <label>Men</label>{" "}
+                        <label className="active">Bags</label>{" "}
                       </span>
                     </li>
                     <li className="body-filter-products-item">
                       <span className="body-filter-products-item-link">
-                        <label>Men</label>{" "}
+                        <label>Sweatshirts & Hoodies</label>{" "}
+                      </span>
+                    </li>
+                    <li className="body-filter-products-item">
+                      <span className="body-filter-products-item-link">
+                        <label>Pants</label>{" "}
+                      </span>
+                    </li>
+                    <li className="body-filter-products-item">
+                      <span className="body-filter-products-item-link">
+                        <label>Dresses</label>{" "}
+                      </span>
+                    </li>{" "}
+                    <li className="body-filter-products-item">
+                      <span className="body-filter-products-item-link">
+                        <label>Jackets & Coats</label>{" "}
                       </span>
                     </li>
                   </ul>
@@ -120,24 +114,33 @@ const Index = () => {
                   <ul className="body-filter-products-list">
                     <li className="body-filter-products-item">
                       <span className="body-filter-products-item-link">
-                        <label className="active">panst</label>
+                        <label className="active">S</label>
                       </span>
                       <div className="body-filter-products-result">(7)</div>
-                    </li>
-                  </ul>
-                </div>
-                <div className="body-filter-status">
-                  <h4 className="body-filter-products-name">Products Status</h4>
-                  <ul className="body-filter-products-list">
+                    </li>{" "}
                     <li className="body-filter-products-item">
                       <span className="body-filter-products-item-link">
-                        <label className="active">panst</label>
+                        <label className="active">M</label>
                       </span>
-                    </li>
+                      <div className="body-filter-products-result">(7)</div>
+                    </li>{" "}
                     <li className="body-filter-products-item">
                       <span className="body-filter-products-item-link">
-                        <label className="active">panst</label>
+                        <label className="active">L</label>
                       </span>
+                      <div className="body-filter-products-result">(7)</div>
+                    </li>{" "}
+                    <li className="body-filter-products-item">
+                      <span className="body-filter-products-item-link">
+                        <label className="active">XL</label>
+                      </span>
+                      <div className="body-filter-products-result">(7)</div>
+                    </li>{" "}
+                    <li className="body-filter-products-item">
+                      <span className="body-filter-products-item-link">
+                        <label className="active">XXL</label>
+                      </span>
+                      <div className="body-filter-products-result">(7)</div>
                     </li>
                   </ul>
                 </div>
@@ -163,19 +166,24 @@ const Index = () => {
                 </div>
                 <div className="col p-6 m-6">
                   <div className="background-filter-sort-showing fz-1-6rem">
-                    <p className="hide-on-mobile">Show:</p>
+                    <p className="hide-on-mobile reduct-little-size-font">
+                      Show:
+                    </p>
                     <div className="filter-sort-showing-select hide-on-mobile">
                       <select>
-                        <option>16 Items</option>
-                        <option>32 Items</option>
-                        <option>64 Items</option>
+                        <option>4 Items</option>
+                        <option>8 Items</option>
+                        <option>12 Items</option>
                       </select>
                     </div>
                     <div className="filter-sort-showing-sort">
                       <select className="filter-sort-showing-sort">
-                        <option>Sort by popularyty</option>
-                        <option>Sort by popularyty</option>
-                        <option>Sort by popularyty</option>
+                        <option>Sort by popularity</option>
+                        <option>Sort by discount</option>
+                        <option>Sort by price ⇩</option>
+                        <option>Sort by price ⇧</option>
+                        <option>Sort by star ⇩</option>
+                        <option>Sort by star ⇧</option>
                       </select>
                     </div>
                   </div>

@@ -36,10 +36,7 @@ const Review = () => {
         </div>
         <div className="product-detail-add-review">
           <p className="product-detail-add-review-name">Add a review</p>
-          <p className="detail-add-review-wran">
-            Your email address will not be published. Required fields are marked
-            *
-          </p>
+          <p className="detail-add-review-wran">Required fields are marked *</p>
           <form
             className="detail-add-review-validate"
             method="post"
@@ -77,29 +74,29 @@ const Review = () => {
             <div className="add-review-content">
               <p className="name">Your review *</p>
               <textarea
-                cols={100}
+                cols={50}
                 rows={10}
-                placeholder="review here"
+                placeholder="Add your review here"
                 defaultValue={""}
               />
             </div>
-            <div className="add-review-name">
-              <p className="name">Name *</p>
-              <input type="text" />
-            </div>
-            <div className="add-review-email">
-              <p className="name">Email *</p>
-              <input type="email" />
-            </div>
+            {/*<div className="add-review-name">*/}
+            {/*  <p className="name">Name *</p>*/}
+            {/*  <input type="text" />*/}
+            {/*</div>*/}
+            {/*<div className="add-review-email">*/}
+            {/*  <p className="name">Email *</p>*/}
+            {/*  <input type="email" />*/}
+            {/*</div>*/}
             <div className="add-review-save-name">
               <input
                 type="checkbox"
                 className="add-review-remind"
                 id="add-review-remind"
+                checked
               />
               <label htmlFor="add-review-remind">
-                Save my name, email, and website in this browser for the next
-                time I comment.
+                &nbsp;Save my information for the next time I comment.
               </label>
             </div>
             <button className="add-review-submit" type="submit">

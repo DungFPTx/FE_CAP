@@ -3,7 +3,7 @@ import CartItem from "./CartItem";
 const Index = () => {
   return (
     <>
-      <div className="container">
+      <div className="containerxx">
         <div className="grid wide">
           <div className="row">
             <div className="col p-9 m-12">

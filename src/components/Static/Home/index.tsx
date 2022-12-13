@@ -51,27 +51,11 @@ const HomeStatic2 = () => {
               <span className="body-filter-products-item-link">
                 <label>Men</label>
               </span>
-              <i className="fa-solid fa-minus" />
-              <ul className="filter-products-sub-list">
-                <li className="filter-products-sub-list">
-                  <span className="body-filter-products-item-link">
-                    <label>panst</label>
-                  </span>
-                </li>
-              </ul>
             </li>
             <li className="body-filter-products-item">
               <span className="body-filter-products-item-link">
                 <label>Men</label>
               </span>
-              <i className="fa-solid fa-minus" />
-              <ul className="filter-products-sub-list">
-                <li className="filter-products-sub-list">
-                  <span className="body-filter-products-item-link">
-                    <label>panst</label>
-                  </span>
-                </li>
-              </ul>
             </li>
             <li className="body-filter-products-item">
               <span className="body-filter-products-item-link">

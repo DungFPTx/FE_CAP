@@ -20,7 +20,7 @@ const Index = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="containerxx">
         <div className="grid wide">
           <div className="row">
             <div className="col p-3 m-12">

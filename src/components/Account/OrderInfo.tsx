@@ -29,7 +29,7 @@ const OrderInfo = () => {
               <select>
                 <option>Viet Nam</option>
                 <option>Thai land</option>
-                <option>China </option>
+                <option>China</option>
               </select>
             </div>
             <div className="col p-12 m-12">
@@ -45,7 +45,7 @@ const OrderInfo = () => {
               <select>
                 <option>Viet Nam</option>
                 <option>Thai land</option>
-                <option>China </option>
+                <option>China</option>
               </select>
             </div>
             <div className="col p-12 m-12">
@@ -117,7 +117,7 @@ const OrderInfo = () => {
                       <select>
                         <option>Viet Nam</option>
                         <option>Thai land</option>
-                        <option>China </option>
+                        <option>China</option>
                       </select>
                     </div>
                     <div className="col p-12 m-12">
@@ -137,7 +137,7 @@ const OrderInfo = () => {
                       <select>
                         <option>Viet Nam</option>
                         <option>Thai land</option>
-                        <option>China </option>
+                        <option>China</option>
                       </select>
                     </div>
                     <div className="col p-12 m-12">

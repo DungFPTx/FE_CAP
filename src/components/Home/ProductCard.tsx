@@ -32,6 +32,10 @@ const ProductCard = () => {
             </div>
           </div>
           <div className="products-shopping-discount fz-1-6rem">-17%</div>
+          <div className="products-shopping-flashsale fz-1-6rem">
+            <i className="fa-solid fa-bolt" />
+            Sale
+          </div>
         </div>
       </div>
     </>

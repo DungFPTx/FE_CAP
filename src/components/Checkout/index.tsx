@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <>
       <div>
-        <div className="container">
+        <div className="containerxx">
           <div className="grid wide">
             <div className="row">
               <form
